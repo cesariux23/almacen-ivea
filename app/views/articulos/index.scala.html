@@ -1,0 +1,35 @@
+@(articulos: List[Articulo])
+
+@main("Articulos") {
+  <h1>Articulos</h1>
+  @if(articulos.isEmpty) {
+    <h3>Sin elementos registrados</h3>
+  } else {
+    <table>
+        <thead>
+          <tr>
+            <th>Clave</th>
+            <th>Descripción</th>
+            <th>Grupo</th>
+            <th>Unidad</th>
+            <th>Costo</th>
+            <th>Existencia</th>
+            <th>Proveedor</th>
+          </tr>
+        </thead>
+        <tbody>
+          @for(articulo <- articulos) {
+            <tr>
+              <td>@articulo.clave</td>
+              <td>@articulo.descripcion</td>
+              <td>@articulo.grupo</td>
+              <td>@articulo.unidad</td>
+              <td>@articulo.costo</td>
+              <td>@articulo.existencia</td>
+              <td>@articulo.proveedor</td>
+            </tr>
+          }
+        </tbody>
+      </table>
+  }
+}

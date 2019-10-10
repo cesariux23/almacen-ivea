@@ -1,0 +1,1365 @@
+INFO  time: initialize in 1.84s
+WARN  no build target: C:\Users\cencarnacion\develop\java\almacen-ivea\build.sbt
+oct 09, 2019 5:45:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 16
+WARN  no build target: C:\Users\cencarnacion\develop\java\almacen-ivea\build.sbt
+INFO  running 'C:\Program Files\Java\jdk1.8.0_161\jre\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\CENCAR~1\AppData\Local\Temp\metals8909335103472877609\sbt-launch.jar metalsEnable bloopInstall'
+INFO  [info] Loading settings for project global-plugins from metals.sbt,plugins.sbt ...
+INFO  [info] Loading global plugins from C:\Users\cencarnacion\.sbt\1.0\plugins
+INFO  [info] Loading settings for project almacen-ivea-build from plugins.sbt ...
+INFO  [info] Loading project definition from C:\Users\cencarnacion\develop\java\almacen-ivea\project
+INFO  [info] Updating ProjectRef(uri("file:/C:/Users/cencarnacion/develop/java/almacen-ivea/project/"), "almacen-ivea-build")...
+INFO  [info] Done updating.
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [success] Generated .bloop\almacen-ivea-build.json
+INFO  [success] Total time: 10 s, completed 9/10/2019 05:48:33 PM
+ERROR C:\Users\cencarnacion\develop\java\almacen-ivea\build.sbt:18: error: not found: value db
+ERROR db.default.driver=org.h2.Driver
+ERROR ^
+INFO  [error] Type error in expression
+INFO  Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? 
+INFO  build tool exit: 1
+INFO  time: ran 'sbt bloopInstall' in 31s
+ERROR sbt command failed: C:\Program Files\Java\jdk1.8.0_161\jre\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\CENCAR~1\AppData\Local\Temp\metals8909335103472877609\sbt-launch.jar metalsEnable bloopInstall
+WARN  no build target: C:\Users\cencarnacion\develop\java\almacen-ivea\build.sbt
+INFO  skipping build import with status 'Failed'
+WARN  no build target: C:\Users\cencarnacion\develop\java\almacen-ivea\project\plugins.sbt
+WARN  no build target: C:\Users\cencarnacion\develop\java\almacen-ivea\project\plugins.sbt
+WARN  no build target: C:\Users\cencarnacion\develop\java\almacen-ivea\project\plugins.sbt
+INFO  running 'C:\Program Files\Java\jdk1.8.0_161\jre\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\CENCAR~1\AppData\Local\Temp\metals6209762977286236559\sbt-launch.jar metalsEnable bloopInstall'
+INFO  [info] Loading settings for project global-plugins from metals.sbt,plugins.sbt ...
+INFO  [info] Loading global plugins from C:\Users\cencarnacion\.sbt\1.0\plugins
+INFO  [info] Loading settings for project almacen-ivea-build from plugins.sbt ...
+INFO  [info] Loading project definition from C:\Users\cencarnacion\develop\java\almacen-ivea\project
+INFO  [info] Updating ProjectRef(uri("file:/C:/Users/cencarnacion/develop/java/almacen-ivea/project/"), "almacen-ivea-build")...
+INFO  [warn] 	module not found: com.payintech#sbt-play-ebean;YY.MM
+INFO  [warn] ==== typesafe-ivy-releases: tried
+INFO  [warn]   https://repo.typesafe.com/typesafe/ivy-releases/com.payintech/sbt-play-ebean/scala_2.12/sbt_1.0/YY.MM/ivys/ivy.xml
+INFO  [warn] ==== sbt-plugin-releases: tried
+INFO  [warn]   https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.payintech/sbt-play-ebean/scala_2.12/sbt_1.0/YY.MM/ivys/ivy.xml
+INFO  [warn] ==== local: tried
+INFO  [warn]   C:\Users\cencarnacion\.ivy2\local\com.payintech\sbt-play-ebean\scala_2.12\sbt_1.0\YY.MM\ivys\ivy.xml
+INFO  [warn] ==== public: tried
+INFO  [warn]   https://repo1.maven.org/maven2/com/payintech/sbt-play-ebean_2.12_1.0/YY.MM/sbt-play-ebean-YY.MM.pom
+INFO  [warn] ==== local-preloaded-ivy: tried
+INFO  [warn]   C:\Users\cencarnacion\.sbt\preloaded\com.payintech\sbt-play-ebean\YY.MM\ivys\ivy.xml
+INFO  [warn] ==== local-preloaded: tried
+INFO  [warn]   file:/C:/Users/cencarnacion/.sbt/preloaded/com/payintech/sbt-play-ebean_2.12_1.0/YY.MM/sbt-play-ebean-YY.MM.pom
+INFO  [warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+INFO  [warn] 	::          UNRESOLVED DEPENDENCIES         ::
+INFO  [warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+INFO  [warn] 	:: com.payintech#sbt-play-ebean;YY.MM: not found
+INFO  [warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+INFO  [warn] 
+INFO  [warn] 	Note: Some unresolved dependencies have extra attributes.  Check that these dependencies exist with the requested attributes.
+INFO  [warn] 		com.payintech:sbt-play-ebean:YY.MM (scalaVersion=2.12, sbtVersion=1.0)
+INFO  [warn] 
+INFO  [warn] 	Note: Unresolved dependencies path:
+INFO  [warn] 		com.payintech:sbt-play-ebean:YY.MM (scalaVersion=2.12, sbtVersion=1.0) (C:\Users\cencarnacion\develop\java\almacen-ivea\project\plugins.sbt#L10-11)
+INFO  [warn] 		  +- default:almacen-ivea-build:0.1.0-SNAPSHOT (scalaVersion=2.12, sbtVersion=1.0)
+INFO  [error] sbt.librarymanagement.ResolveException: unresolved dependency: com.payintech#sbt-play-ebean;YY.MM: not found
+INFO  [error] 	at sbt.internal.librarymanagement.IvyActions$.resolveAndRetrieve(IvyActions.scala:332)
+INFO  [error] 	at sbt.internal.librarymanagement.IvyActions$.$anonfun$updateEither$1(IvyActions.scala:208)
+INFO  [error] 	at sbt.internal.librarymanagement.IvySbt$Module.$anonfun$withModule$1(Ivy.scala:239)
+INFO  [error] 	at sbt.internal.librarymanagement.IvySbt.$anonfun$withIvy$1(Ivy.scala:204)
+INFO  [error] 	at sbt.internal.librarymanagement.IvySbt.sbt$internal$librarymanagement$IvySbt$$action$1(Ivy.scala:70)
+INFO  [error] 	at sbt.internal.librarymanagement.IvySbt$$anon$3.call(Ivy.scala:77)
+INFO  [error] 	at xsbt.boot.Locks$GlobalLock.withChannel$1(Locks.scala:95)
+INFO  [error] 	at xsbt.boot.Locks$GlobalLock.xsbt$boot$Locks$GlobalLock$$withChannelRetries$1(Locks.scala:80)
+INFO  [error] 	at xsbt.boot.Locks$GlobalLock$$anonfun$withFileLock$1.apply(Locks.scala:99)
+INFO  [error] 	at xsbt.boot.Using$.withResource(Using.scala:10)
+INFO  [error] 	at xsbt.boot.Using$.apply(Using.scala:9)
+INFO  [error] 	at xsbt.boot.Locks$GlobalLock.ignoringDeadlockAvoided(Locks.scala:60)
+INFO  [error] 	at xsbt.boot.Locks$GlobalLock.withLock(Locks.scala:50)
+INFO  [error] 	at xsbt.boot.Locks$.apply0(Locks.scala:31)
+INFO  [error] 	at xsbt.boot.Locks$.apply(Locks.scala:28)
+INFO  [error] 	at sbt.internal.librarymanagement.IvySbt.withDefaultLogger(Ivy.scala:77)
+INFO  [error] 	at sbt.internal.librarymanagement.IvySbt.withIvy(Ivy.scala:199)
+INFO  [error] 	at sbt.internal.librarymanagement.IvySbt.withIvy(Ivy.scala:196)
+INFO  [error] 	at sbt.internal.librarymanagement.IvySbt$Module.withModule(Ivy.scala:238)
+INFO  [error] 	at sbt.internal.librarymanagement.IvyActions$.updateEither(IvyActions.scala:193)
+INFO  [error] 	at sbt.librarymanagement.ivy.IvyDependencyResolution.update(IvyDependencyResolution.scala:20)
+INFO  [error] 	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:56)
+INFO  [error] 	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:45)
+INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:93)
+INFO  [error] 	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:68)
+INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$19(LibraryManagement.scala:106)
+INFO  [error] 	at scala.util.control.Exception$Catch.apply(Exception.scala:224)
+INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:106)
+INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:89)
+INFO  [error] 	at sbt.util.Tracked$.$anonfun$inputChanged$1(Tracked.scala:149)
+INFO  [error] 	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:120)
+INFO  [error] 	at sbt.Classpaths$.$anonfun$updateTask$5(Defaults.scala:2561)
+INFO  [error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:44)
+INFO  [error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:40)
+INFO  [error] 	at sbt.std.Transform$$anon$4.work(System.scala:67)
+INFO  [error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:269)
+INFO  [error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:16)
+INFO  [error] 	at sbt.Execute.work(Execute.scala:278)
+INFO  [error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:269)
+INFO  [error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:178)
+INFO  [error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:37)
+INFO  [error] 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+INFO  [error] 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+INFO  [error] 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+INFO  [error] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+INFO  [error] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+INFO  [error] 	at java.lang.Thread.run(Thread.java:748)
+INFO  [error] (update) sbt.librarymanagement.ResolveException: unresolved dependency: com.payintech#sbt-play-ebean;YY.MM: not found
+INFO  [error] Total time: 8 s, completed 9/10/2019 06:01:59 PM
+INFO  Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? [info] Updating ProjectRef(uri("file:/C:/Users/cencarnacion/develop/java/almacen-ivea/project/"), "almacen-ivea-build")...
+INFO  [warn] 	module not found: com.payintech#sbt-play-ebean;YY.MM
+INFO  [warn] ==== typesafe-ivy-releases: tried
+INFO  [warn]   https://repo.typesafe.com/typesafe/ivy-releases/com.payintech/sbt-play-ebean/scala_2.12/sbt_1.0/YY.MM/ivys/ivy.xml
+INFO  [warn] ==== sbt-plugin-releases: tried
+INFO  [warn]   https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.payintech/sbt-play-ebean/scala_2.12/sbt_1.0/YY.MM/ivys/ivy.xml
+INFO  [warn] ==== local: tried
+INFO  [warn]   C:\Users\cencarnacion\.ivy2\local\com.payintech\sbt-play-ebean\scala_2.12\sbt_1.0\YY.MM\ivys\ivy.xml
+INFO  [warn] ==== public: tried
+INFO  [warn]   https://repo1.maven.org/maven2/com/payintech/sbt-play-ebean_2.12_1.0/YY.MM/sbt-play-ebean-YY.MM.pom
+INFO  [warn] ==== local-preloaded-ivy: tried
+INFO  [warn]   C:\Users\cencarnacion\.sbt\preloaded\com.payintech\sbt-play-ebean\YY.MM\ivys\ivy.xml
+INFO  [warn] ==== local-preloaded: tried
+INFO  [warn]   file:/C:/Users/cencarnacion/.sbt/preloaded/com/payintech/sbt-play-ebean_2.12_1.0/YY.MM/sbt-play-ebean-YY.MM.pom
+INFO  [warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+INFO  [warn] 	::          UNRESOLVED DEPENDENCIES         ::
+INFO  [warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+INFO  [warn] 	:: com.payintech#sbt-play-ebean;YY.MM: not found
+INFO  [warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+INFO  [warn] 
+INFO  [warn] 	Note: Some unresolved dependencies have extra attributes.  Check that these dependencies exist with the requested attributes.
+INFO  [warn] 		com.payintech:sbt-play-ebean:YY.MM (scalaVersion=2.12, sbtVersion=1.0)
+INFO  [warn] 
+INFO  [warn] 	Note: Unresolved dependencies path:
+INFO  [warn] 		com.payintech:sbt-play-ebean:YY.MM (scalaVersion=2.12, sbtVersion=1.0) (C:\Users\cencarnacion\develop\java\almacen-ivea\project\plugins.sbt#L10-11)
+INFO  [warn] 		  +- default:almacen-ivea-build:0.1.0-SNAPSHOT (scalaVersion=2.12, sbtVersion=1.0)
+INFO  [error] sbt.librarymanagement.ResolveException: unresolved dependency: com.payintech#sbt-play-ebean;YY.MM: not found
+INFO  [error] 	at sbt.internal.librarymanagement.IvyActions$.resolveAndRetrieve(IvyActions.scala:332)
+INFO  [error] 	at sbt.internal.librarymanagement.IvyActions$.$anonfun$updateEither$1(IvyActions.scala:208)
+INFO  [error] 	at sbt.internal.librarymanagement.IvySbt$Module.$anonfun$withModule$1(Ivy.scala:239)
+INFO  [error] 	at sbt.internal.librarymanagement.IvySbt.$anonfun$withIvy$1(Ivy.scala:204)
+INFO  [error] 	at sbt.internal.librarymanagement.IvySbt.sbt$internal$librarymanagement$IvySbt$$action$1(Ivy.scala:70)
+INFO  [error] 	at sbt.internal.librarymanagement.IvySbt$$anon$3.call(Ivy.scala:77)
+INFO  [error] 	at xsbt.boot.Locks$GlobalLock.withChannel$1(Locks.scala:95)
+INFO  [error] 	at xsbt.boot.Locks$GlobalLock.xsbt$boot$Locks$GlobalLock$$withChannelRetries$1(Locks.scala:80)
+INFO  [error] 	at xsbt.boot.Locks$GlobalLock$$anonfun$withFileLock$1.apply(Locks.scala:99)
+INFO  [error] 	at xsbt.boot.Using$.withResource(Using.scala:10)
+INFO  [error] 	at xsbt.boot.Using$.apply(Using.scala:9)
+INFO  [error] 	at xsbt.boot.Locks$GlobalLock.ignoringDeadlockAvoided(Locks.scala:60)
+INFO  [error] 	at xsbt.boot.Locks$GlobalLock.withLock(Locks.scala:50)
+INFO  [error] 	at xsbt.boot.Locks$.apply0(Locks.scala:31)
+INFO  [error] 	at xsbt.boot.Locks$.apply(Locks.scala:28)
+INFO  [error] 	at sbt.internal.librarymanagement.IvySbt.withDefaultLogger(Ivy.scala:77)
+INFO  [error] 	at sbt.internal.librarymanagement.IvySbt.withIvy(Ivy.scala:199)
+INFO  [error] 	at sbt.internal.librarymanagement.IvySbt.withIvy(Ivy.scala:196)
+INFO  [error] 	at sbt.internal.librarymanagement.IvySbt$Module.withModule(Ivy.scala:238)
+INFO  [error] 	at sbt.internal.librarymanagement.IvyActions$.updateEither(IvyActions.scala:193)
+INFO  [error] 	at sbt.librarymanagement.ivy.IvyDependencyResolution.update(IvyDependencyResolution.scala:20)
+INFO  [error] 	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:56)
+INFO  [error] 	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:45)
+INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:93)
+INFO  [error] 	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:68)
+INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$19(LibraryManagement.scala:106)
+INFO  [error] 	at scala.util.control.Exception$Catch.apply(Exception.scala:224)
+INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:106)
+INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:89)
+INFO  [error] 	at sbt.util.Tracked$.$anonfun$inputChanged$1(Tracked.scala:149)
+INFO  [error] 	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:120)
+INFO  [error] 	at sbt.Classpaths$.$anonfun$updateTask$5(Defaults.scala:2561)
+INFO  [error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:44)
+INFO  [error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:40)
+INFO  [error] 	at sbt.std.Transform$$anon$4.work(System.scala:67)
+INFO  [error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:269)
+INFO  [error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:16)
+INFO  [error] 	at sbt.Execute.work(Execute.scala:278)
+INFO  [error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:269)
+INFO  [error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:178)
+INFO  [error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:37)
+INFO  [error] 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+INFO  [error] 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+INFO  [error] 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+INFO  [error] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+INFO  [error] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+INFO  [error] 	at java.lang.Thread.run(Thread.java:748)
+INFO  [error] (update) sbt.librarymanagement.ResolveException: unresolved dependency: com.payintech#sbt-play-ebean;YY.MM: not found
+INFO  Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? 
+INFO  build tool exit: 1
+INFO  time: ran 'sbt bloopInstall' in 19s
+ERROR sbt command failed: C:\Program Files\Java\jdk1.8.0_161\jre\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\CENCAR~1\AppData\Local\Temp\metals6209762977286236559\sbt-launch.jar metalsEnable bloopInstall
+WARN  no build target: C:\Users\cencarnacion\develop\java\almacen-ivea\build.sbt
+INFO  running 'C:\Program Files\Java\jdk1.8.0_161\jre\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\CENCAR~1\AppData\Local\Temp\metals6644859649297500568\sbt-launch.jar metalsEnable bloopInstall'
+INFO  [info] Loading settings for project global-plugins from metals.sbt,plugins.sbt ...
+INFO  [info] Loading global plugins from C:\Users\cencarnacion\.sbt\1.0\plugins
+INFO  [info] Loading settings for project almacen-ivea-build from plugins.sbt ...
+INFO  [info] Loading project definition from C:\Users\cencarnacion\develop\java\almacen-ivea\project
+INFO  [info] Updating ProjectRef(uri("file:/C:/Users/cencarnacion/develop/java/almacen-ivea/project/"), "almacen-ivea-build")...
+INFO  [warn] 	module not found: com.payintech#sbt-play-ebean;YY.MM
+INFO  [warn] ==== typesafe-ivy-releases: tried
+INFO  [warn]   https://repo.typesafe.com/typesafe/ivy-releases/com.payintech/sbt-play-ebean/scala_2.12/sbt_1.0/YY.MM/ivys/ivy.xml
+INFO  [warn] ==== sbt-plugin-releases: tried
+INFO  [warn]   https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.payintech/sbt-play-ebean/scala_2.12/sbt_1.0/YY.MM/ivys/ivy.xml
+INFO  [warn] ==== local: tried
+INFO  [warn]   C:\Users\cencarnacion\.ivy2\local\com.payintech\sbt-play-ebean\scala_2.12\sbt_1.0\YY.MM\ivys\ivy.xml
+INFO  [warn] ==== public: tried
+INFO  [warn]   https://repo1.maven.org/maven2/com/payintech/sbt-play-ebean_2.12_1.0/YY.MM/sbt-play-ebean-YY.MM.pom
+INFO  [warn] ==== local-preloaded-ivy: tried
+INFO  [warn]   C:\Users\cencarnacion\.sbt\preloaded\com.payintech\sbt-play-ebean\YY.MM\ivys\ivy.xml
+INFO  [warn] ==== local-preloaded: tried
+INFO  [warn]   file:/C:/Users/cencarnacion/.sbt/preloaded/com/payintech/sbt-play-ebean_2.12_1.0/YY.MM/sbt-play-ebean-YY.MM.pom
+INFO  [warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+INFO  [warn] 	::          UNRESOLVED DEPENDENCIES         ::
+INFO  [warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+INFO  [warn] 	:: com.payintech#sbt-play-ebean;YY.MM: not found
+INFO  [warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+INFO  [warn] 
+INFO  [warn] 	Note: Some unresolved dependencies have extra attributes.  Check that these dependencies exist with the requested attributes.
+INFO  [warn] 		com.payintech:sbt-play-ebean:YY.MM (scalaVersion=2.12, sbtVersion=1.0)
+INFO  [warn] 
+INFO  [warn] 	Note: Unresolved dependencies path:
+INFO  [warn] 		com.payintech:sbt-play-ebean:YY.MM (scalaVersion=2.12, sbtVersion=1.0) (C:\Users\cencarnacion\develop\java\almacen-ivea\project\plugins.sbt#L10-11)
+INFO  [warn] 		  +- default:almacen-ivea-build:0.1.0-SNAPSHOT (scalaVersion=2.12, sbtVersion=1.0)
+INFO  [error] sbt.librarymanagement.ResolveException: unresolved dependency: com.payintech#sbt-play-ebean;YY.MM: not found
+INFO  [error] 	at sbt.internal.librarymanagement.IvyActions$.resolveAndRetrieve(IvyActions.scala:332)
+INFO  [error] 	at sbt.internal.librarymanagement.IvyActions$.$anonfun$updateEither$1(IvyActions.scala:208)
+INFO  [error] 	at sbt.internal.librarymanagement.IvySbt$Module.$anonfun$withModule$1(Ivy.scala:239)
+INFO  [error] 	at sbt.internal.librarymanagement.IvySbt.$anonfun$withIvy$1(Ivy.scala:204)
+INFO  [error] 	at sbt.internal.librarymanagement.IvySbt.sbt$internal$librarymanagement$IvySbt$$action$1(Ivy.scala:70)
+INFO  [error] 	at sbt.internal.librarymanagement.IvySbt$$anon$3.call(Ivy.scala:77)
+INFO  [error] 	at xsbt.boot.Locks$GlobalLock.withChannel$1(Locks.scala:95)
+INFO  [error] 	at xsbt.boot.Locks$GlobalLock.xsbt$boot$Locks$GlobalLock$$withChannelRetries$1(Locks.scala:80)
+INFO  [error] 	at xsbt.boot.Locks$GlobalLock$$anonfun$withFileLock$1.apply(Locks.scala:99)
+INFO  [error] 	at xsbt.boot.Using$.withResource(Using.scala:10)
+INFO  [error] 	at xsbt.boot.Using$.apply(Using.scala:9)
+INFO  [error] 	at xsbt.boot.Locks$GlobalLock.ignoringDeadlockAvoided(Locks.scala:60)
+INFO  [error] 	at xsbt.boot.Locks$GlobalLock.withLock(Locks.scala:50)
+INFO  [error] 	at xsbt.boot.Locks$.apply0(Locks.scala:31)
+INFO  [error] 	at xsbt.boot.Locks$.apply(Locks.scala:28)
+INFO  [error] 	at sbt.internal.librarymanagement.IvySbt.withDefaultLogger(Ivy.scala:77)
+INFO  [error] 	at sbt.internal.librarymanagement.IvySbt.withIvy(Ivy.scala:199)
+INFO  [error] 	at sbt.internal.librarymanagement.IvySbt.withIvy(Ivy.scala:196)
+INFO  [error] 	at sbt.internal.librarymanagement.IvySbt$Module.withModule(Ivy.scala:238)
+INFO  [error] 	at sbt.internal.librarymanagement.IvyActions$.updateEither(IvyActions.scala:193)
+INFO  [error] 	at sbt.librarymanagement.ivy.IvyDependencyResolution.update(IvyDependencyResolution.scala:20)
+INFO  [error] 	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:56)
+INFO  [error] 	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:45)
+INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:93)
+INFO  [error] 	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:68)
+INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$19(LibraryManagement.scala:106)
+INFO  [error] 	at scala.util.control.Exception$Catch.apply(Exception.scala:224)
+INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:106)
+INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:89)
+INFO  [error] 	at sbt.util.Tracked$.$anonfun$inputChanged$1(Tracked.scala:149)
+INFO  [error] 	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:120)
+INFO  [error] 	at sbt.Classpaths$.$anonfun$updateTask$5(Defaults.scala:2561)
+INFO  [error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:44)
+INFO  [error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:40)
+INFO  [error] 	at sbt.std.Transform$$anon$4.work(System.scala:67)
+INFO  [error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:269)
+INFO  [error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:16)
+INFO  [error] 	at sbt.Execute.work(Execute.scala:278)
+INFO  [error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:269)
+INFO  [error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:178)
+INFO  [error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:37)
+INFO  [error] 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+INFO  [error] 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+INFO  [error] 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+INFO  [error] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+INFO  [error] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+INFO  [error] 	at java.lang.Thread.run(Thread.java:748)
+INFO  [error] (update) sbt.librarymanagement.ResolveException: unresolved dependency: com.payintech#sbt-play-ebean;YY.MM: not found
+INFO  [error] Total time: 7 s, completed 9/10/2019 06:02:26 PM
+INFO  Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? [info] Updating ProjectRef(uri("file:/C:/Users/cencarnacion/develop/java/almacen-ivea/project/"), "almacen-ivea-build")...
+INFO  [warn] 	module not found: com.payintech#sbt-play-ebean;YY.MM
+INFO  [warn] ==== typesafe-ivy-releases: tried
+INFO  [warn]   https://repo.typesafe.com/typesafe/ivy-releases/com.payintech/sbt-play-ebean/scala_2.12/sbt_1.0/YY.MM/ivys/ivy.xml
+INFO  [warn] ==== sbt-plugin-releases: tried
+INFO  [warn]   https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.payintech/sbt-play-ebean/scala_2.12/sbt_1.0/YY.MM/ivys/ivy.xml
+INFO  [warn] ==== local: tried
+INFO  [warn]   C:\Users\cencarnacion\.ivy2\local\com.payintech\sbt-play-ebean\scala_2.12\sbt_1.0\YY.MM\ivys\ivy.xml
+INFO  [warn] ==== public: tried
+INFO  [warn]   https://repo1.maven.org/maven2/com/payintech/sbt-play-ebean_2.12_1.0/YY.MM/sbt-play-ebean-YY.MM.pom
+INFO  [warn] ==== local-preloaded-ivy: tried
+INFO  [warn]   C:\Users\cencarnacion\.sbt\preloaded\com.payintech\sbt-play-ebean\YY.MM\ivys\ivy.xml
+INFO  [warn] ==== local-preloaded: tried
+INFO  [warn]   file:/C:/Users/cencarnacion/.sbt/preloaded/com/payintech/sbt-play-ebean_2.12_1.0/YY.MM/sbt-play-ebean-YY.MM.pom
+INFO  [warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+INFO  [warn] 	::          UNRESOLVED DEPENDENCIES         ::
+INFO  [warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+INFO  [warn] 	:: com.payintech#sbt-play-ebean;YY.MM: not found
+INFO  [warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+INFO  [warn] 
+INFO  [warn] 	Note: Some unresolved dependencies have extra attributes.  Check that these dependencies exist with the requested attributes.
+INFO  [warn] 		com.payintech:sbt-play-ebean:YY.MM (scalaVersion=2.12, sbtVersion=1.0)
+INFO  [warn] 
+INFO  [warn] 	Note: Unresolved dependencies path:
+INFO  [warn] 		com.payintech:sbt-play-ebean:YY.MM (scalaVersion=2.12, sbtVersion=1.0) (C:\Users\cencarnacion\develop\java\almacen-ivea\project\plugins.sbt#L10-11)
+INFO  [warn] 		  +- default:almacen-ivea-build:0.1.0-SNAPSHOT (scalaVersion=2.12, sbtVersion=1.0)
+INFO  [error] sbt.librarymanagement.ResolveException: unresolved dependency: com.payintech#sbt-play-ebean;YY.MM: not found
+INFO  [error] 	at sbt.internal.librarymanagement.IvyActions$.resolveAndRetrieve(IvyActions.scala:332)
+INFO  [error] 	at sbt.internal.librarymanagement.IvyActions$.$anonfun$updateEither$1(IvyActions.scala:208)
+INFO  [error] 	at sbt.internal.librarymanagement.IvySbt$Module.$anonfun$withModule$1(Ivy.scala:239)
+INFO  [error] 	at sbt.internal.librarymanagement.IvySbt.$anonfun$withIvy$1(Ivy.scala:204)
+INFO  [error] 	at sbt.internal.librarymanagement.IvySbt.sbt$internal$librarymanagement$IvySbt$$action$1(Ivy.scala:70)
+INFO  [error] 	at sbt.internal.librarymanagement.IvySbt$$anon$3.call(Ivy.scala:77)
+INFO  [error] 	at xsbt.boot.Locks$GlobalLock.withChannel$1(Locks.scala:95)
+INFO  [error] 	at xsbt.boot.Locks$GlobalLock.xsbt$boot$Locks$GlobalLock$$withChannelRetries$1(Locks.scala:80)
+INFO  [error] 	at xsbt.boot.Locks$GlobalLock$$anonfun$withFileLock$1.apply(Locks.scala:99)
+INFO  [error] 	at xsbt.boot.Using$.withResource(Using.scala:10)
+INFO  [error] 	at xsbt.boot.Using$.apply(Using.scala:9)
+INFO  [error] 	at xsbt.boot.Locks$GlobalLock.ignoringDeadlockAvoided(Locks.scala:60)
+INFO  [error] 	at xsbt.boot.Locks$GlobalLock.withLock(Locks.scala:50)
+INFO  [error] 	at xsbt.boot.Locks$.apply0(Locks.scala:31)
+INFO  [error] 	at xsbt.boot.Locks$.apply(Locks.scala:28)
+INFO  [error] 	at sbt.internal.librarymanagement.IvySbt.withDefaultLogger(Ivy.scala:77)
+INFO  [error] 	at sbt.internal.librarymanagement.IvySbt.withIvy(Ivy.scala:199)
+INFO  [error] 	at sbt.internal.librarymanagement.IvySbt.withIvy(Ivy.scala:196)
+INFO  [error] 	at sbt.internal.librarymanagement.IvySbt$Module.withModule(Ivy.scala:238)
+INFO  [error] 	at sbt.internal.librarymanagement.IvyActions$.updateEither(IvyActions.scala:193)
+INFO  [error] 	at sbt.librarymanagement.ivy.IvyDependencyResolution.update(IvyDependencyResolution.scala:20)
+INFO  [error] 	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:56)
+INFO  [error] 	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:45)
+INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:93)
+INFO  [error] 	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:68)
+INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$19(LibraryManagement.scala:106)
+INFO  [error] 	at scala.util.control.Exception$Catch.apply(Exception.scala:224)
+INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:106)
+INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:89)
+INFO  [error] 	at sbt.util.Tracked$.$anonfun$inputChanged$1(Tracked.scala:149)
+INFO  [error] 	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:120)
+INFO  [error] 	at sbt.Classpaths$.$anonfun$updateTask$5(Defaults.scala:2561)
+INFO  [error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:44)
+INFO  [error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:40)
+INFO  [error] 	at sbt.std.Transform$$anon$4.work(System.scala:67)
+INFO  [error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:269)
+INFO  [error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:16)
+INFO  [error] 	at sbt.Execute.work(Execute.scala:278)
+INFO  [error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:269)
+INFO  [error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:178)
+INFO  [error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:37)
+INFO  [error] 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+INFO  [error] 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+INFO  [error] 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+INFO  [error] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+INFO  [error] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+INFO  [error] 	at java.lang.Thread.run(Thread.java:748)
+INFO  [error] (update) sbt.librarymanagement.ResolveException: unresolved dependency: com.payintech#sbt-play-ebean;YY.MM: not found
+INFO  Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? 
+INFO  build tool exit: 1
+INFO  time: ran 'sbt bloopInstall' in 17s
+ERROR sbt command failed: C:\Program Files\Java\jdk1.8.0_161\jre\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\CENCAR~1\AppData\Local\Temp\metals6644859649297500568\sbt-launch.jar metalsEnable bloopInstall
+WARN  no build target: C:\Users\cencarnacion\develop\java\almacen-ivea\project\plugins.sbt
+INFO  skipping build import with status 'Failed'
+WARN  no build target: C:\Users\cencarnacion\develop\java\almacen-ivea\build.sbt
+INFO  skipping build import with status 'Failed'
+WARN  no build target: C:\Users\cencarnacion\develop\java\almacen-ivea\project\plugins.sbt
+INFO  running 'C:\Program Files\Java\jdk1.8.0_161\jre\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\CENCAR~1\AppData\Local\Temp\metals6315767376948139600\sbt-launch.jar metalsEnable bloopInstall'
+INFO  [info] Loading settings for project global-plugins from metals.sbt,plugins.sbt ...
+INFO  [info] Loading global plugins from C:\Users\cencarnacion\.sbt\1.0\plugins
+INFO  [info] Updating ProjectRef(uri("file:/C:/Users/cencarnacion/.sbt/1.0/plugins/"), "global-plugins")...
+ERROR Waiting for lock on C:\Users\cencarnacion\.ivy2\.sbt.ivy.lock to be available...
+INFO  [info] Done updating.
+INFO  [info] Loading settings for project almacen-ivea-build from plugins.sbt ...
+INFO  [info] Loading project definition from C:\Users\cencarnacion\develop\java\almacen-ivea\project
+INFO  [info] Updating ProjectRef(uri("file:/C:/Users/cencarnacion/develop/java/almacen-ivea/project/"), "almacen-ivea-build")...
+ERROR Waiting for lock on C:\Users\cencarnacion\.ivy2\.sbt.ivy.lock to be available...
+INFO  [info] Done updating.
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [success] Generated .bloop\almacen-ivea-build.json
+INFO  [success] Total time: 16 s, completed 9/10/2019 06:18:01 PM
+INFO  [info] Updating ProjectRef(uri("file:/C:/Users/cencarnacion/develop/java/almacen-ivea/project/"), "almacen-ivea-build")...
+INFO  [info] Done updating.
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [info] Loading settings for project root from build.sbt ...
+INFO  [info] Set current project to almacen-ivea (in build file:/C:/Users/cencarnacion/develop/java/almacen-ivea/)
+INFO  [info] Set current project to almacen-ivea (in build file:/C:/Users/cencarnacion/develop/java/almacen-ivea/)
+INFO  [info] semanticdb-scalac is enabled
+INFO  [info] Updating ...
+INFO  [info] Done updating.
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [warn] 	Detected merged artifact: [FAILED     ] tyrex#tyrex;1.0.1!tyrex.jar(src):  (0ms).
+INFO  [warn] ==== local: tried
+INFO  [warn]   C:\Users\cencarnacion\.ivy2\local\tyrex\tyrex\1.0.1\srcs\tyrex-sources.jar
+INFO  [warn] ==== public: tried
+INFO  [warn]   https://repo1.maven.org/maven2/tyrex/tyrex/1.0.1/tyrex-1.0.1-sources.jar
+INFO  [warn] ==== local-preloaded-ivy: tried
+INFO  [warn]   C:\Users\cencarnacion\.sbt\preloaded\tyrex\tyrex\1.0.1\srcs\tyrex-sources.jar
+INFO  [warn] ==== local-preloaded: tried
+INFO  [warn]   file:/C:/Users/cencarnacion/.sbt/preloaded/tyrex/tyrex/1.0.1/tyrex-1.0.1-sources.jar
+INFO  [info] downloading https://repo1.maven.org/maven2/org/javassist/javassist/3.21.0-GA/javassist-3.21.0-GA-sources.jar ...
+INFO  [info] downloading https://repo1.maven.org/maven2/com/googlecode/usc/jdbcdslog/1.0.6.2/jdbcdslog-1.0.6.2-sources.jar ...
+INFO  [info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc_2.13/2.7.3/play-jdbc_2.13-2.7.3-sources.jar ...
+INFO  [info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-java-jdbc_2.13/2.7.3/play-java-jdbc_2.13-2.7.3-sources.jar ...
+INFO  [info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc-api_2.13/2.7.3/play-jdbc-api_2.13-2.7.3-sources.jar ...
+INFO  [info] 	[SUCCESSFUL ] com.typesafe.play#play-jdbc-api_2.13;2.7.3!play-jdbc-api_2.13.jar(src) (1625ms)
+INFO  [info] 	[SUCCESSFUL ] com.typesafe.play#play-jdbc_2.13;2.7.3!play-jdbc_2.13.jar(src) (1649ms)
+INFO  [info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-enhancer/1.2.2/play-enhancer-1.2.2-sources.jar ...
+INFO  [info] 	[SUCCESSFUL ] com.typesafe.play#play-java-jdbc_2.13;2.7.3!play-java-jdbc_2.13.jar(src) (1709ms)
+INFO  [info] downloading https://repo1.maven.org/maven2/com/zaxxer/HikariCP/3.3.1/HikariCP-3.3.1-sources.jar ...
+INFO  [info] 	[SUCCESSFUL ] com.googlecode.usc#jdbcdslog;1.0.6.2!jdbcdslog.jar(src) (1953ms)
+INFO  [info] 	[SUCCESSFUL ] com.typesafe.play#play-enhancer;1.2.2!play-enhancer.jar(src) (961ms)
+INFO  [info] 	[SUCCESSFUL ] com.zaxxer#HikariCP;3.3.1!HikariCP.jar(src) (872ms)
+INFO  [info] 	[SUCCESSFUL ] org.javassist#javassist;3.21.0-GA!javassist.jar(src) (2858ms)
+INFO  [warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+INFO  [warn] 	::              FAILED DOWNLOADS            ::
+INFO  [warn] 	:: ^ see resolution messages for details  ^ ::
+INFO  [warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+INFO  [warn] 	:: tyrex#tyrex;1.0.1!tyrex.jar(src)
+INFO  [warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+INFO  [success] Generated .bloop\root.json
+INFO  [success] Generated .bloop\root-test.json
+INFO  [success] Total time: 8 s, completed 9/10/2019 06:18:20 PM
+INFO  build tool exit: 0
+INFO  time: ran 'sbt bloopInstall' in 1m11s
+INFO  running embedded 'bloop bsp --protocol tcp --host 127.0.0.1 --port 63578'
+The server is listening for incoming connections at tcp://127.0.0.1:63578...
+Accepted incoming BSP client connection at tcp://127.0.0.1:63578
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\cencarnacion\AppData\Local\scalameta\metals\cache\bsp.trace.json
+request received: build/initialize
+INFO  time: connected to build server in 14s
+BSP initialization handshake complete.
+INFO  time: imported build in 0.38s
+INFO  time: indexed workspace in 9.3s
+WARN  no build target: C:\Users\cencarnacion\develop\java\almacen-ivea\build.sbt
+  C:\Users\cencarnacion\develop\java\almacen-ivea\project\plugins.sbt
+WARN  no build target: C:\Users\cencarnacion\develop\java\almacen-ivea\build.sbt
+INFO  running 'C:\Program Files\Java\jdk1.8.0_161\jre\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\CENCAR~1\AppData\Local\Temp\metals9155151879779795153\sbt-launch.jar metalsEnable bloopInstall'
+INFO  [info] Loading settings for project global-plugins from metals.sbt,plugins.sbt ...
+INFO  [info] Loading global plugins from C:\Users\cencarnacion\.sbt\1.0\plugins
+INFO  [info] Updating ProjectRef(uri("file:/C:/Users/cencarnacion/.sbt/1.0/plugins/"), "global-plugins")...
+INFO  [info] Done updating.
+INFO  [info] Loading settings for project almacen-ivea-build from plugins.sbt ...
+INFO  [info] Loading project definition from C:\Users\cencarnacion\develop\java\almacen-ivea\project
+INFO  [info] Updating ProjectRef(uri("file:/C:/Users/cencarnacion/develop/java/almacen-ivea/project/"), "almacen-ivea-build")...
+INFO  [info] Done updating.
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [success] Generated .bloop\almacen-ivea-build.json
+INFO  [success] Total time: 6 s, completed 9/10/2019 06:31:54 PM
+INFO  [info] Updating ProjectRef(uri("file:/C:/Users/cencarnacion/develop/java/almacen-ivea/project/"), "almacen-ivea-build")...
+INFO  [info] Done updating.
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [info] Loading settings for project root from build.sbt ...
+INFO  [info] Set current project to almacen-ivea (in build file:/C:/Users/cencarnacion/develop/java/almacen-ivea/)
+INFO  [info] Set current project to almacen-ivea (in build file:/C:/Users/cencarnacion/develop/java/almacen-ivea/)
+INFO  [info] semanticdb-scalac is enabled
+INFO  [info] Updating ...
+INFO  [info] Done updating.
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [info] downloading https://repo1.maven.org/maven2/mysql/mysql-connector-java/5.1.41/mysql-connector-java-5.1.41-sources.jar ...
+INFO  [info] 	[SUCCESSFUL ] mysql#mysql-connector-java;5.1.41!mysql-connector-java.jar(src) (3369ms)
+INFO  [success] Generated .bloop\root.json
+INFO  [success] Generated .bloop\root-test.json
+INFO  [success] Total time: 8 s, completed 9/10/2019 06:32:11 PM
+INFO  build tool exit: 0
+INFO  time: ran 'sbt bloopInstall' in 33s
+INFO  disconnected: build server
+shutdown request received: build/shutdown
+Client in C:\Users\cencarnacion\develop\java\almacen-ivea\.bloop triggered cancellation. Cancelling tasks...
+[0m[31m[E][0m BSP server cancelled, closing socket...
+INFO  bloop exit: 0
+INFO  running embedded 'bloop bsp --protocol tcp --host 127.0.0.1 --port 65364'
+The server is listening for incoming connections at tcp://127.0.0.1:65364...
+Accepted incoming BSP client connection at tcp://127.0.0.1:65364
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\cencarnacion\AppData\Local\scalameta\metals\cache\bsp.trace.json
+request received: build/initialize
+INFO  time: connected to build server in 4.41s
+BSP initialization handshake complete.
+INFO  time: imported build in 0.37s
+INFO  time: indexed workspace in 1.21s
+WARN  no build target: C:\Users\cencarnacion\develop\java\almacen-ivea\build.sbt
+  C:\Users\cencarnacion\develop\java\almacen-ivea\project\plugins.sbt
+INFO  compiling root (6 scala sources and 3 java sources)
+INFO  Non-compiled module 'compiler-bridge_2.13' for Scala 2.13.0. Compiling...
+INFO    Compilation completed in 11.012s.
+ERROR class, interface, or enum expected
+INFO  time: compiled root in 26s
+ERROR Failed to compile 'root'
+INFO  compiling root (6 scala sources and 3 java sources)
+INFO  time: compiled root in 2.09s
+ERROR Failed to compile 'root'
+INFO  compiling root (6 scala sources and 3 java sources)
+ERROR cannot find symbol
+  symbol: class Model
+INFO  time: compiled root in 2.36s
+ERROR Failed to compile 'root'
+INFO  compiling root (6 scala sources and 3 java sources)
+ERROR package javax.persistence does not exist
+ERROR package javax.persistence does not exist
+ERROR cannot find symbol
+  symbol: class Model
+ERROR cannot find symbol
+  symbol: class Entity
+ERROR cannot find symbol
+  symbol:   class Id
+  location: class Articulo
+INFO  time: compiled root in 2.29s
+ERROR Failed to compile 'root'
+INFO  compiling root (6 scala sources and 3 java sources)
+ERROR package javax.persistence does not exist
+ERROR package javax.persistence does not exist
+ERROR cannot find symbol
+  symbol: class Model
+ERROR cannot find symbol
+  symbol: class Entity
+ERROR cannot find symbol
+  symbol:   class Id
+  location: class Articulo
+INFO  time: compiled root in 1.93s
+ERROR Failed to compile 'root'
+INFO  compiling root (6 scala sources and 3 java sources)
+ERROR package io.ebean does not exist
+ERROR package javax.persistence does not exist
+ERROR package javax.persistence does not exist
+ERROR cannot find symbol
+  symbol: class Model
+ERROR cannot find symbol
+  symbol: class Entity
+ERROR cannot find symbol
+  symbol:   class Id
+  location: class models.Articulo
+INFO  time: compiled root in 1.72s
+ERROR Failed to compile 'root'
+INFO  time: initialize in 0.29s
+INFO  skipping build import with status 'Installed'
+INFO  running embedded 'bloop bsp --protocol tcp --host 127.0.0.1 --port 51236'
+The server is listening for incoming connections at tcp://127.0.0.1:51236...
+Accepted incoming BSP client connection at tcp://127.0.0.1:51236
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\cencarnacion\AppData\Local\scalameta\metals\cache\bsp.trace.json
+request received: build/initialize
+INFO  time: connected to build server in 5.83s
+BSP initialization handshake complete.
+INFO  time: imported build in 0.49s
+INFO  time: indexed workspace in 1.38s
+WARN  no build target: 
+INFO  time: initialize in 0.26s
+INFO  skipping build import with status 'Installed'
+INFO  running embedded 'bloop bsp --protocol tcp --host 127.0.0.1 --port 50540'
+The server is listening for incoming connections at tcp://127.0.0.1:50540...
+Accepted incoming BSP client connection at tcp://127.0.0.1:50540
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\cencarnacion\AppData\Local\scalameta\metals\cache\bsp.trace.json
+request received: build/initialize
+INFO  time: connected to build server in 5.79s
+BSP initialization handshake complete.
+INFO  time: imported build in 0.77s
+INFO  time: indexed workspace in 3.04s
+WARN  no build target: 
+WARN  no build target: C:\Users\cencarnacion\develop\java\almacen-ivea\project\plugins.sbt
+WARN  no build target: C:\Users\cencarnacion\develop\java\almacen-ivea\build.sbt
+WARN  no build target: C:\Users\cencarnacion\develop\java\almacen-ivea\build.sbt
+INFO  running 'C:\Program Files\Java\jdk1.8.0_161\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\CENCAR~1\AppData\Local\Temp\metals980535811453707171\sbt-launch.jar metalsEnable bloopInstall'
+INFO  [info] Loading settings for project global-plugins from metals.sbt,plugins.sbt ...
+INFO  [info] Loading global plugins from C:\Users\cencarnacion\.sbt\1.0\plugins
+INFO  [info] Updating ProjectRef(uri("file:/C:/Users/cencarnacion/.sbt/1.0/plugins/"), "global-plugins")...
+INFO  [info] Done updating.
+INFO  [info] Loading settings for project almacen-ivea-build from plugins.sbt ...
+INFO  [info] Loading project definition from C:\Users\cencarnacion\develop\java\almacen-ivea\project
+INFO  [info] Updating ProjectRef(uri("file:/C:/Users/cencarnacion/develop/java/almacen-ivea/project/"), "almacen-ivea-build")...
+INFO  [info] Done updating.
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [success] Generated .bloop\almacen-ivea-build.json
+INFO  [success] Total time: 9 s, completed 10/10/2019 10:13:16 AM
+INFO  [info] Updating ProjectRef(uri("file:/C:/Users/cencarnacion/develop/java/almacen-ivea/project/"), "almacen-ivea-build")...
+INFO  [info] Done updating.
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [info] Loading settings for project root from build.sbt ...
+INFO  [info] Set current project to almacen-ivea (in build file:/C:/Users/cencarnacion/develop/java/almacen-ivea/)
+INFO  [info] Set current project to almacen-ivea (in build file:/C:/Users/cencarnacion/develop/java/almacen-ivea/)
+INFO  [info] semanticdb-scalac is enabled
+INFO  [info] Updating ...
+ERROR Waiting for lock on C:\Users\cencarnacion\.ivy2\.sbt.ivy.lock to be available...
+INFO  [warn] 	module not found: com.payintech#play-ebean_2.13;19.07
+INFO  [warn] ==== local: tried
+INFO  [warn]   C:\Users\cencarnacion\.ivy2\local\com.payintech\play-ebean_2.13\19.07\ivys\ivy.xml
+INFO  [warn] ==== public: tried
+INFO  [warn]   https://repo1.maven.org/maven2/com/payintech/play-ebean_2.13/19.07/play-ebean_2.13-19.07.pom
+INFO  [warn] ==== local-preloaded-ivy: tried
+INFO  [warn]   C:\Users\cencarnacion\.sbt\preloaded\com.payintech\play-ebean_2.13\19.07\ivys\ivy.xml
+INFO  [warn] ==== local-preloaded: tried
+INFO  [warn]   file:/C:/Users/cencarnacion/.sbt/preloaded/com/payintech/play-ebean_2.13/19.07/play-ebean_2.13-19.07.pom
+INFO  [warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+INFO  [warn] 	::          UNRESOLVED DEPENDENCIES         ::
+INFO  [warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+INFO  [warn] 	:: com.payintech#play-ebean_2.13;19.07: not found
+INFO  [warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+INFO  [warn] 
+INFO  [warn] 	Note: Unresolved dependencies path:
+INFO  [warn] 		com.payintech:play-ebean_2.13:19.07 ((play.ebean.sbt.PlayEbean.unscopedSettings) PlayEbean.scala#L49)
+INFO  [warn] 		  +- mx.gob.ivea:almacen-ivea_2.13:1.0-SNAPSHOT
+INFO  [error] sbt.librarymanagement.ResolveException: unresolved dependency: com.payintech#play-ebean_2.13;19.07: not found
+INFO  [error] 	at sbt.internal.librarymanagement.IvyActions$.resolveAndRetrieve(IvyActions.scala:332)
+INFO  [error] 	at sbt.internal.librarymanagement.IvyActions$.$anonfun$updateEither$1(IvyActions.scala:208)
+INFO  [error] 	at sbt.internal.librarymanagement.IvySbt$Module.$anonfun$withModule$1(Ivy.scala:239)
+INFO  [error] 	at sbt.internal.librarymanagement.IvySbt.$anonfun$withIvy$1(Ivy.scala:204)
+INFO  [error] 	at sbt.internal.librarymanagement.IvySbt.sbt$internal$librarymanagement$IvySbt$$action$1(Ivy.scala:70)
+INFO  [error] 	at sbt.internal.librarymanagement.IvySbt$$anon$3.call(Ivy.scala:77)
+INFO  [error] 	at xsbt.boot.Locks$GlobalLock.withChannel$1(Locks.scala:92)
+INFO  [error] 	at xsbt.boot.Locks$GlobalLock.xsbt$boot$Locks$GlobalLock$$withChannelRetries$1(Locks.scala:80)
+INFO  [error] 	at xsbt.boot.Locks$GlobalLock$$anonfun$withFileLock$1.apply(Locks.scala:99)
+INFO  [error] 	at xsbt.boot.Using$.withResource(Using.scala:10)
+INFO  [error] 	at xsbt.boot.Using$.apply(Using.scala:9)
+INFO  [error] 	at xsbt.boot.Locks$GlobalLock.ignoringDeadlockAvoided(Locks.scala:60)
+INFO  [error] 	at xsbt.boot.Locks$GlobalLock.withLock(Locks.scala:50)
+INFO  [error] 	at xsbt.boot.Locks$.apply0(Locks.scala:31)
+INFO  [error] 	at xsbt.boot.Locks$.apply(Locks.scala:28)
+INFO  [error] 	at sbt.internal.librarymanagement.IvySbt.withDefaultLogger(Ivy.scala:77)
+INFO  [error] 	at sbt.internal.librarymanagement.IvySbt.withIvy(Ivy.scala:199)
+INFO  [error] 	at sbt.internal.librarymanagement.IvySbt.withIvy(Ivy.scala:196)
+INFO  [error] 	at sbt.internal.librarymanagement.IvySbt$Module.withModule(Ivy.scala:238)
+INFO  [error] 	at sbt.internal.librarymanagement.IvyActions$.updateEither(IvyActions.scala:193)
+INFO  [error] 	at sbt.librarymanagement.ivy.IvyDependencyResolution.update(IvyDependencyResolution.scala:20)
+INFO  [error] 	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:56)
+INFO  [error] 	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:45)
+INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:93)
+INFO  [error] 	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:68)
+INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$19(LibraryManagement.scala:106)
+INFO  [error] 	at scala.util.control.Exception$Catch.apply(Exception.scala:224)
+INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:106)
+INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:89)
+INFO  [error] 	at sbt.util.Tracked$.$anonfun$inputChanged$1(Tracked.scala:149)
+INFO  [error] 	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:120)
+INFO  [error] 	at sbt.Classpaths$.$anonfun$updateTask$5(Defaults.scala:2561)
+INFO  [error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:44)
+INFO  [error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:40)
+INFO  [error] 	at sbt.std.Transform$$anon$4.work(System.scala:67)
+INFO  [error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:269)
+INFO  [error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:16)
+INFO  [error] 	at sbt.Execute.work(Execute.scala:278)
+INFO  [error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:269)
+INFO  [error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:178)
+INFO  [error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:37)
+INFO  [error] 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+INFO  [error] 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+INFO  [error] 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+INFO  [error] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+INFO  [error] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+INFO  [error] 	at java.lang.Thread.run(Thread.java:748)
+INFO  [error] (update) sbt.librarymanagement.ResolveException: unresolved dependency: com.payintech#play-ebean_2.13;19.07: not found
+INFO  [error] Total time: 6 s, completed 10/10/2019 10:13:29 AM
+INFO  time: ran 'sbt bloopInstall' in 39s
+INFO  build tool exit: 1
+ERROR sbt command failed: C:\Program Files\Java\jdk1.8.0_161\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\CENCAR~1\AppData\Local\Temp\metals980535811453707171\sbt-launch.jar metalsEnable bloopInstall
+INFO  disconnected: build server
+shutdown request received: build/shutdown
+[0m[31m[E][0m BSP server cancelled, closing socket...
+Client in C:\Users\cencarnacion\develop\java\almacen-ivea\.bloop triggered cancellation. Cancelling tasks...
+INFO  bloop exit: 0
+INFO  running embedded 'bloop bsp --protocol tcp --host 127.0.0.1 --port 50769'
+The server is listening for incoming connections at tcp://127.0.0.1:50769...
+Accepted incoming BSP client connection at tcp://127.0.0.1:50769
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\cencarnacion\AppData\Local\scalameta\metals\cache\bsp.trace.json
+request received: build/initialize
+BSP initialization handshake complete.
+INFO  time: connected to build server in 3.02s
+INFO  time: imported build in 0.41s
+INFO  time: indexed workspace in 0.65s
+WARN  no build target: C:\Users\cencarnacion\develop\java\almacen-ivea\build.sbt
+WARN  no build target: C:\Users\cencarnacion\develop\java\almacen-ivea\project\plugins.sbt
+WARN  no build target: C:\Users\cencarnacion\develop\java\almacen-ivea\project\plugins.sbt
+INFO  running 'C:\Program Files\Java\jdk1.8.0_161\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\CENCAR~1\AppData\Local\Temp\metals1525004048285908619\sbt-launch.jar metalsEnable bloopInstall'
+INFO  [info] Loading settings for project global-plugins from metals.sbt,plugins.sbt ...
+INFO  [info] Loading global plugins from C:\Users\cencarnacion\.sbt\1.0\plugins
+INFO  [info] Updating ProjectRef(uri("file:/C:/Users/cencarnacion/.sbt/1.0/plugins/"), "global-plugins")...
+INFO  [info] Done updating.
+INFO  [info] Loading settings for project almacen-ivea-build from plugins.sbt ...
+INFO  [info] Loading project definition from C:\Users\cencarnacion\develop\java\almacen-ivea\project
+INFO  [info] Updating ProjectRef(uri("file:/C:/Users/cencarnacion/develop/java/almacen-ivea/project/"), "almacen-ivea-build")...
+INFO  [info] downloading https://repo1.maven.org/maven2/io/ebean/ebean-agent/11.27.1/ebean-agent-11.27.1.jar ...
+INFO  [info] downloading https://repo1.maven.org/maven2/io/ebean/ebean/11.33.2/ebean-11.33.2.jar ...
+INFO  [info] downloading https://repo1.maven.org/maven2/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar ...
+INFO  [info] downloading https://repo1.maven.org/maven2/io/ebean/persistence-api/2.2.1/persistence-api-2.2.1.jar ...
+INFO  [info] downloading https://repo1.maven.org/maven2/io/ebean/ebean-annotation/4.5/ebean-annotation-4.5.jar ...
+INFO  [info] downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-play-ebean/scala_2.12/sbt_1.0/5.0.2/jars/sbt-play-ebean.jar ...
+INFO  [info] 	[SUCCESSFUL ] io.ebean#ebean-annotation;4.5!ebean-annotation.jar (1452ms)
+INFO  [info] downloading https://repo1.maven.org/maven2/io/ebean/ebean-datasource/4.3.2/ebean-datasource-4.3.2.jar ...
+INFO  [info] 	[SUCCESSFUL ] io.ebean#persistence-api;2.2.1!persistence-api.jar (1652ms)
+INFO  [info] downloading https://repo1.maven.org/maven2/org/avaje/avaje-classpath-scanner/3.1.1/avaje-classpath-scanner-3.1.1.jar ...
+INFO  [info] 	[SUCCESSFUL ] com.typesafe.sbt#sbt-play-ebean;5.0.2!sbt-play-ebean.jar (1672ms)
+INFO  [info] downloading https://repo1.maven.org/maven2/io/ebean/ebean-migration/11.13.1/ebean-migration-11.13.1.jar ...
+INFO  [info] 	[SUCCESSFUL ] io.ebean#ebean-agent;11.27.1!ebean-agent.jar (1765ms)
+INFO  [info] downloading https://repo1.maven.org/maven2/org/antlr/antlr4-runtime/4.7.2/antlr4-runtime-4.7.2.jar ...
+INFO  [info] 	[SUCCESSFUL ] io.ebean#ebean-datasource;4.3.2!ebean-datasource.jar (935ms)
+INFO  [info] downloading https://repo1.maven.org/maven2/io/ebean/ebean-datasource-api/4.3/ebean-datasource-api-4.3.jar ...
+INFO  [info] 	[SUCCESSFUL ] org.avaje#avaje-classpath-scanner;3.1.1!avaje-classpath-scanner.jar (790ms)
+INFO  [info] downloading https://repo1.maven.org/maven2/org/avaje/avaje-classpath-scanner-api/2.2/avaje-classpath-scanner-api-2.2.jar ...
+INFO  [info] 	[SUCCESSFUL ] org.yaml#snakeyaml;1.21!snakeyaml.jar(bundle) (2756ms)
+INFO  [info] 	[SUCCESSFUL ] io.ebean#ebean-datasource-api;4.3!ebean-datasource-api.jar (753ms)
+INFO  [info] 	[SUCCESSFUL ] org.avaje#avaje-classpath-scanner-api;2.2!avaje-classpath-scanner-api.jar (756ms)
+INFO  [info] 	[SUCCESSFUL ] org.antlr#antlr4-runtime;4.7.2!antlr4-runtime.jar (1718ms)
+INFO  [info] 	[SUCCESSFUL ] io.ebean#ebean-migration;11.13.1!ebean-migration.jar (1833ms)
+INFO  [info] 	[SUCCESSFUL ] io.ebean#ebean;11.33.2!ebean.jar (7005ms)
+INFO  [info] Done updating.
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [success] Generated .bloop\almacen-ivea-build.json
+INFO  [success] Total time: 44 s, completed 10/10/2019 10:33:28 AM
+INFO  [info] Updating ProjectRef(uri("file:/C:/Users/cencarnacion/develop/java/almacen-ivea/project/"), "almacen-ivea-build")...
+INFO  [info] Done updating.
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [info] Loading settings for project root from build.sbt ...
+INFO  [info] Set current project to almacen-ivea (in build file:/C:/Users/cencarnacion/develop/java/almacen-ivea/)
+INFO  [info] Set current project to almacen-ivea (in build file:/C:/Users/cencarnacion/develop/java/almacen-ivea/)
+INFO  [info] semanticdb-scalac is enabled
+INFO  [info] Updating ...
+ERROR Waiting for lock on C:\Users\cencarnacion\.ivy2\.sbt.ivy.lock to be available...
+INFO  [info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc-evolutions_2.13/2.7.3/play-jdbc-evolutions_2.13-2.7.3.jar ...
+INFO  [info] downloading https://repo1.maven.org/maven2/org/reflections/reflections/0.9.11/reflections-0.9.11.jar ...
+INFO  [info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-ebean_2.13/5.0.2/play-ebean_2.13-5.0.2.jar ...
+INFO  [info] 	[SUCCESSFUL ] com.typesafe.play#play-ebean_2.13;5.0.2!play-ebean_2.13.jar (644ms)
+INFO  [info] 	[SUCCESSFUL ] com.typesafe.play#play-jdbc-evolutions_2.13;2.7.3!play-jdbc-evolutions_2.13.jar (685ms)
+INFO  [info] 	[SUCCESSFUL ] org.reflections#reflections;0.9.11!reflections.jar (881ms)
+INFO  [info] Done updating.
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+ERROR Waiting for lock on C:\Users\cencarnacion\.ivy2\.sbt.ivy.lock to be available...
+INFO  [info] downloading https://repo1.maven.org/maven2/org/reflections/reflections/0.9.11/reflections-0.9.11-sources.jar ...
+INFO  [info] downloading https://repo1.maven.org/maven2/io/ebean/ebean-datasource-api/4.3/ebean-datasource-api-4.3-sources.jar ...
+INFO  [info] downloading https://repo1.maven.org/maven2/io/ebean/ebean-migration/11.13.1/ebean-migration-11.13.1-sources.jar ...
+INFO  [info] downloading https://repo1.maven.org/maven2/io/ebean/ebean-datasource/4.3.2/ebean-datasource-4.3.2-sources.jar ...
+INFO  [info] downloading https://repo1.maven.org/maven2/io/ebean/ebean/11.33.2/ebean-11.33.2-sources.jar ...
+INFO  [info] downloading https://repo1.maven.org/maven2/org/avaje/avaje-classpath-scanner/3.1.1/avaje-classpath-scanner-3.1.1-sources.jar ...
+INFO  [info] 	[SUCCESSFUL ] io.ebean#ebean-datasource-api;4.3!ebean-datasource-api.jar(src) (567ms)
+INFO  [info] 	[SUCCESSFUL ] io.ebean#ebean-migration;11.13.1!ebean-migration.jar(src) (625ms)
+INFO  [info] 	[SUCCESSFUL ] io.ebean#ebean-datasource;4.3.2!ebean-datasource.jar(src) (657ms)
+INFO  [info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc-evolutions_2.13/2.7.3/play-jdbc-evolutions_2.13-2.7.3-sources.jar ...
+INFO  [info] 	[SUCCESSFUL ] org.avaje#avaje-classpath-scanner;3.1.1!avaje-classpath-scanner.jar(src) (687ms)
+INFO  [info] downloading https://repo1.maven.org/maven2/io/ebean/persistence-api/2.2.1/persistence-api-2.2.1-sources.jar ...
+INFO  [info] downloading https://repo1.maven.org/maven2/io/ebean/ebean-annotation/4.5/ebean-annotation-4.5-sources.jar ...
+INFO  [info] downloading https://repo1.maven.org/maven2/org/avaje/avaje-classpath-scanner-api/2.2/avaje-classpath-scanner-api-2.2-sources.jar ...
+INFO  [info] 	[SUCCESSFUL ] com.typesafe.play#play-jdbc-evolutions_2.13;2.7.3!play-jdbc-evolutions_2.13.jar(src) (679ms)
+INFO  [info] 	[SUCCESSFUL ] org.reflections#reflections;0.9.11!reflections.jar(src) (1350ms)
+INFO  [info] 	[SUCCESSFUL ] org.avaje#avaje-classpath-scanner-api;2.2!avaje-classpath-scanner-api.jar(src) (658ms)
+INFO  [info] downloading https://repo1.maven.org/maven2/org/antlr/antlr4-runtime/4.7.2/antlr4-runtime-4.7.2-sources.jar ...
+INFO  [info] 	[SUCCESSFUL ] io.ebean#persistence-api;2.2.1!persistence-api.jar(src) (741ms)
+INFO  [info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-ebean_2.13/5.0.2/play-ebean_2.13-5.0.2-sources.jar ...
+INFO  [info] downloading https://repo1.maven.org/maven2/io/ebean/ebean-agent/11.27.1/ebean-agent-11.27.1-sources.jar ...
+INFO  [info] downloading https://repo1.maven.org/maven2/org/yaml/snakeyaml/1.21/snakeyaml-1.21-sources.jar ...
+INFO  [info] 	[SUCCESSFUL ] io.ebean#ebean-annotation;4.5!ebean-annotation.jar(src) (851ms)
+INFO  [info] 	[SUCCESSFUL ] com.typesafe.play#play-ebean_2.13;5.0.2!play-ebean_2.13.jar(src) (944ms)
+INFO  [info] 	[SUCCESSFUL ] io.ebean#ebean-agent;11.27.1!ebean-agent.jar(src) (1204ms)
+INFO  [info] 	[SUCCESSFUL ] org.yaml#snakeyaml;1.21!snakeyaml.jar(src) (1444ms)
+INFO  [info] 	[SUCCESSFUL ] org.antlr#antlr4-runtime;4.7.2!antlr4-runtime.jar(src) (1886ms)
+INFO  [info] 	[SUCCESSFUL ] io.ebean#ebean;11.33.2!ebean.jar(src) (6224ms)
+INFO  [success] Generated .bloop\root.json
+INFO  [success] Generated .bloop\root-test.json
+INFO  [success] Total time: 23 s, completed 10/10/2019 10:33:59 AM
+INFO  build tool exit: 0
+INFO  time: ran 'sbt bloopInstall' in 1m26s
+INFO  disconnected: build server
+shutdown request received: build/shutdown
+[0m[31m[E][0m BSP server cancelled, closing socket...
+Client in C:\Users\cencarnacion\develop\java\almacen-ivea\.bloop triggered cancellation. Cancelling tasks...
+INFO  bloop exit: 0
+INFO  running embedded 'bloop bsp --protocol tcp --host 127.0.0.1 --port 51134'
+The server is listening for incoming connections at tcp://127.0.0.1:51134...
+Accepted incoming BSP client connection at tcp://127.0.0.1:51134
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\cencarnacion\AppData\Local\scalameta\metals\cache\bsp.trace.json
+request received: build/initialize
+INFO  time: connected to build server in 3.03s
+BSP initialization handshake complete.
+INFO  time: imported build in 0.44s
+INFO  time: indexed workspace in 0.87s
+WARN  no build target: C:\Users\cencarnacion\develop\java\almacen-ivea\build.sbt
+  C:\Users\cencarnacion\develop\java\almacen-ivea\project\plugins.sbt
+INFO  compiling root (6 scala sources and 3 java sources)
+INFO  time: compiled root in 6.21s
+INFO  compiling root (1 java source)
+INFO  time: compiled root in 0.23s
+INFO  compiling root (1 java source)
+INFO  time: compiled root in 0.2s
+INFO  compiling root (1 java source)
+ERROR class ArticuloController is public, should be declared in a file named ArticuloController.java
+INFO  time: compiled root in 0.21s
+ERROR Failed to compile 'root'
+INFO  compiling root (6 scala sources and 4 java sources)
+INFO  time: compiled root in 2.71s
+ERROR Failed to compile 'root'
+INFO  compiling root (6 scala sources and 4 java sources)
+ERROR class ArticuloController is public, should be declared in a file named ArticuloController.java
+INFO  time: compiled root in 3.46s
+ERROR Failed to compile 'root'
+INFO  compiling root (6 scala sources and 4 java sources)
+ERROR class ArticuloController is public, should be declared in a file named ArticuloController.java
+INFO  time: compiled root in 2.38s
+ERROR Failed to compile 'root'
+INFO  compiling root (6 scala sources and 4 java sources)
+INFO  time: compiled root in 2.47s
+INFO  compiling root (1 java source)
+ERROR package views.articulos does not exist
+INFO  time: compiled root in 0.24s
+ERROR Failed to compile 'root'
+INFO  compiling root (2 java sources)
+ERROR package views.articulos does not exist
+ERROR cannot find symbol
+  symbol:   class index
+  location: package views.html
+INFO  time: compiled root in 0.25s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source and 2 java sources)
+ERROR package views.articulos does not exist
+ERROR cannot find symbol
+  symbol:   class index
+  location: package views.html
+INFO  time: compiled root in 1.06s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source and 2 java sources)
+ERROR cannot find symbol
+  symbol:   class index
+  location: package views.html
+INFO  time: compiled root in 1.04s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source and 2 java sources)
+ERROR package views.articulos.html does not exist
+ERROR cannot find symbol
+  symbol:   class index
+  location: package views.html
+INFO  time: compiled root in 0.96s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source and 2 java sources)
+ERROR package views.articulos.html does not exist
+ERROR cannot find symbol
+  symbol:   class index
+  location: package views.html
+INFO  time: compiled root in 0.97s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source and 2 java sources)
+ERROR package views.articulos.html does not exist
+ERROR cannot find symbol
+  symbol:   class index
+  location: package views.html
+INFO  time: compiled root in 0.96s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source and 2 java sources)
+ERROR package views.articulos.html does not exist
+ERROR cannot find symbol
+  symbol:   class index
+  location: package views.html
+INFO  time: compiled root in 0.93s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source and 2 java sources)
+ERROR package views.articulos does not exist
+ERROR cannot find symbol
+  symbol:   class index
+  location: package views.html
+INFO  time: compiled root in 1.14s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source and 2 java sources)
+ERROR package views.articulos does not exist
+ERROR cannot find symbol
+  symbol:   class index
+  location: package views.html
+INFO  time: compiled root in 0.86s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source and 2 java sources)
+ERROR package articulos does not exist
+ERROR cannot find symbol
+  symbol:   class index
+  location: package views.html
+INFO  time: compiled root in 0.76s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source and 2 java sources)
+ERROR package articulos does not exist
+ERROR cannot find symbol
+  symbol:   class index
+  location: package views.html
+INFO  time: compiled root in 0.84s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source and 2 java sources)
+ERROR cannot find symbol
+  symbol:   class index
+  location: package views.html
+INFO  time: compiled root in 0.99s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source and 2 java sources)
+ERROR cannot find symbol
+  symbol:   class index
+  location: package views.html
+INFO  time: compiled root in 0.85s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source and 2 java sources)
+ERROR package views.articulos does not exist
+ERROR cannot find symbol
+  symbol:   variable index
+  location: class controllers.ArticuloController
+ERROR cannot find symbol
+  symbol:   class index
+  location: package views.html
+INFO  time: compiled root in 0.84s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source and 2 java sources)
+ERROR package views.articulos does not exist
+ERROR cannot find symbol
+  symbol:   variable index
+  location: class controllers.ArticuloController
+ERROR cannot find symbol
+  symbol:   class index
+  location: package views.html
+INFO  time: compiled root in 0.9s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source and 2 java sources)
+ERROR cannot find symbol
+  symbol:   class index
+  location: package views.html
+INFO  time: compiled root in 0.78s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source and 2 java sources)
+ERROR cannot find symbol
+  symbol:   class index
+  location: package views.html
+INFO  time: compiled root in 0.75s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source and 2 java sources)
+ERROR package view.html.articulos does not exist
+ERROR cannot find symbol
+  symbol:   class index
+  location: package views.html
+INFO  time: compiled root in 0.95s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source and 2 java sources)
+ERROR package view.html.articulos does not exist
+ERROR cannot find symbol
+  symbol:   class index
+  location: package views.html
+INFO  time: compiled root in 0.94s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source and 2 java sources)
+ERROR package view.html.articulos does not exist
+ERROR cannot find symbol
+  symbol:   class index
+  location: package views.html
+INFO  time: compiled root in 0.87s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source and 2 java sources)
+ERROR package view.html.articulos does not exist
+ERROR cannot find symbol
+  symbol:   class index
+  location: package views.html
+INFO  time: compiled root in 0.83s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source and 2 java sources)
+ERROR cannot find symbol
+  symbol:   class index
+  location: package views.html
+INFO  time: compiled root in 0.91s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source and 2 java sources)
+ERROR cannot find symbol
+  symbol:   class index
+  location: package views.html
+INFO  time: compiled root in 0.93s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source and 2 java sources)
+ERROR cannot find symbol
+  symbol:   class index
+  location: package views.html
+INFO  time: compiled root in 1.02s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source and 2 java sources)
+ERROR cannot find symbol
+  symbol:   class index
+  location: package views.html
+INFO  time: compiled root in 0.8s
+ERROR Failed to compile 'root'
+INFO  compiling root (2 scala sources and 1 java source)
+INFO  time: compiled root in 1.01s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.68s
+INFO  compiling root (1 java source)
+ERROR not a statement
+ERROR ';' expected
+INFO  time: compiled root in 0.15s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 java source)
+ERROR not a statement
+ERROR ';' expected
+INFO  time: compiled root in 94ms
+ERROR Failed to compile 'root'
+INFO  compiling root (1 java source)
+ERROR cannot find symbol
+  symbol:   class List
+  location: class controllers.ArticuloController
+ERROR cannot find symbol
+  symbol:   variable find
+  location: class models.Articulo
+INFO  time: compiled root in 0.15s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source and 1 java source)
+INFO  time: compiled root in 0.28s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source and 1 java source)
+ERROR cannot find symbol
+  symbol:   class List
+  location: class controllers.ArticuloController
+ERROR cannot find symbol
+  symbol:   variable find
+  location: class models.Articulo
+INFO  time: compiled root in 1.41s
+ERROR Failed to compile 'root'
+oct 10, 2019 12:04:44 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMACIÓN: Unsupported notification method: $/setTraceNotification
+oct 10, 2019 12:05:23 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMACIÓN: Unsupported notification method: $/setTraceNotification
+oct 10, 2019 12:05:25 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMACIÓN: Unsupported notification method: $/setTraceNotification
+INFO  compiling root (1 scala source and 1 java source)
+ERROR cannot find symbol
+  symbol:   variable find
+  location: class models.Articulo
+INFO  time: compiled root in 4.28s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source and 1 java source)
+ERROR cannot find symbol
+  symbol:   variable find
+  location: class models.Articulo
+INFO  time: compiled root in 0.97s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source and 2 java sources)
+INFO  time: compiled root in 1.46s
+INFO  compiling root (1 java source)
+INFO  time: compiled root in 0.21s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.47s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.28s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.9s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.3s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.31s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.31s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.69s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 0.3s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source and 1 java source)
+INFO  time: compiled root in 0.5s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source and 1 java source)
+INFO  time: compiled root in 0.32s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source and 1 java source)
+INFO  time: compiled root in 0.36s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source and 1 java source)
+INFO  time: compiled root in 0.3s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source and 1 java source)
+INFO  time: compiled root in 0.34s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 scala source and 1 java source)
+INFO  time: compiled root in 2.95s
+INFO  compiling root (1 scala source and 1 java source)
+INFO  time: compiled root in 0.77s
+INFO  compiling root (1 scala source)
+INFO  time: compiled root in 1.19s
+INFO  compiling root (1 java source)
+INFO  time: compiled root in 0.33s
+INFO  compiling root (1 java source)
+ERROR illegal start of expression
+ERROR reached end of file while parsing
+INFO  time: compiled root in 0.23s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 java source)
+ERROR illegal start of expression
+ERROR reached end of file while parsing
+INFO  time: compiled root in 77ms
+ERROR Failed to compile 'root'
+INFO  compiling root (1 java source)
+ERROR illegal start of expression
+ERROR reached end of file while parsing
+INFO  time: compiled root in 88ms
+ERROR Failed to compile 'root'
+INFO  compiling root (1 java source)
+ERROR cannot find symbol
+  symbol:   method findById(java.lang.String)
+  location: variable find of type io.ebean.Finder<java.lang.String,models.Articulo>
+ERROR cannot find symbol
+  symbol:   method json()
+  location: variable articulo of type models.Articulo
+INFO  time: compiled root in 0.64s
+ERROR Failed to compile 'root'
+INFO  compiling root (3 scala sources and 3 java sources)
+INFO  time: compiled root in 0.45s
+ERROR Failed to compile 'root'
+INFO  compiling root (7 scala sources and 4 java sources)
+ERROR cannot find symbol
+  symbol:   method findById(java.lang.String)
+  location: variable find of type io.ebean.Finder<java.lang.String,models.Articulo>
+ERROR cannot find symbol
+  symbol:   method json()
+  location: variable articulo of type models.Articulo
+INFO  time: compiled root in 4.48s
+ERROR Failed to compile 'root'
+INFO  compiling root (7 scala sources and 4 java sources)
+ERROR cannot find symbol
+  symbol:   method json()
+  location: variable articulo of type models.Articulo
+INFO  time: compiled root in 2.6s
+ERROR Failed to compile 'root'
+INFO  compiling root (7 scala sources and 4 java sources)
+ERROR cannot find symbol
+  symbol:   method json()
+  location: variable articulo of type models.Articulo
+INFO  time: compiled root in 2.77s
+ERROR Failed to compile 'root'
+INFO  compiling root (7 scala sources and 4 java sources)
+ERROR cannot find symbol
+  symbol:   method toJson(models.Articulo)
+  location: class controllers.ArticuloController
+INFO  time: compiled root in 2.48s
+ERROR Failed to compile 'root'
+INFO  compiling root (7 scala sources and 4 java sources)
+ERROR cannot find symbol
+  symbol:   method toJson(models.Articulo)
+  location: class controllers.ArticuloController
+INFO  time: compiled root in 2.66s
+ERROR Failed to compile 'root'
+INFO  compiling root (7 scala sources and 4 java sources)
+ERROR cannot find symbol
+  symbol:   variable Json
+  location: class controllers.ArticuloController
+INFO  time: compiled root in 2.21s
+ERROR Failed to compile 'root'
+INFO  compiling root (7 scala sources and 4 java sources)
+ERROR cannot find symbol
+  symbol:   variable Json
+  location: class controllers.ArticuloController
+INFO  time: compiled root in 8.29s
+ERROR Failed to compile 'root'
+INFO  compiling root (7 scala sources and 4 java sources)
+ERROR cannot find symbol
+  symbol:   variable Json
+  location: class controllers.ArticuloController
+INFO  time: compiled root in 1.95s
+ERROR Failed to compile 'root'
+INFO  compiling root (7 scala sources and 4 java sources)
+ERROR cannot find symbol
+  symbol:   class JsonNode
+  location: class controllers.ArticuloController
+ERROR cannot find symbol
+  symbol:   variable Json
+  location: class controllers.ArticuloController
+INFO  time: compiled root in 2.03s
+ERROR Failed to compile 'root'
+INFO  compiling root (7 scala sources and 4 java sources)
+ERROR cannot find symbol
+  symbol:   class JsonNode
+  location: class controllers.ArticuloController
+ERROR cannot find symbol
+  symbol:   variable Json
+  location: class controllers.ArticuloController
+INFO  time: compiled root in 2.46s
+ERROR Failed to compile 'root'
+INFO  compiling root (7 scala sources and 4 java sources)
+INFO  time: compiled root in 2.41s
+INFO  compiling root (1 java source)
+INFO  time: compiled root in 0.81s
+INFO  compiling root (1 java source)
+ERROR unreachable statement
+INFO  time: compiled root in 0.24s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 java source)
+ERROR unreachable statement
+INFO  time: compiled root in 0.14s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 java source)
+INFO  time: compiled root in 0.26s
+INFO  compiling root (1 java source)
+ERROR no suitable method found for ok(models.Articulo)
+    method play.mvc.Results.ok(play.twirl.api.Content) is not applicable
+      (argument mismatch; models.Articulo cannot be converted to play.twirl.api.Content)
+    method play.mvc.Results.ok(java.lang.String) is not applicable
+      (argument mismatch; models.Articulo cannot be converted to java.lang.String)
+    method play.mvc.Results.ok(com.fasterxml.jackson.databind.JsonNode) is not applicable
+      (argument mismatch; models.Articulo cannot be converted to com.fasterxml.jackson.databind.JsonNode)
+    method play.mvc.Results.ok(byte[]) is not applicable
+      (argument mismatch; models.Articulo cannot be converted to byte[])
+    method play.mvc.Results.ok(java.io.InputStream) is not applicable
+      (argument mismatch; models.Articulo cannot be converted to java.io.InputStream)
+    method play.mvc.Results.ok(java.io.File) is not applicable
+      (argument mismatch; models.Articulo cannot be converted to java.io.File)
+    method play.mvc.Results.ok(java.nio.file.Path) is not applicable
+      (argument mismatch; models.Articulo cannot be converted to java.nio.file.Path)
+INFO  Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+INFO  time: compiled root in 0.34s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 java source)
+ERROR no suitable method found for ok(models.Articulo)
+    method play.mvc.Results.ok(play.twirl.api.Content) is not applicable
+      (argument mismatch; models.Articulo cannot be converted to play.twirl.api.Content)
+    method play.mvc.Results.ok(java.lang.String) is not applicable
+      (argument mismatch; models.Articulo cannot be converted to java.lang.String)
+    method play.mvc.Results.ok(com.fasterxml.jackson.databind.JsonNode) is not applicable
+      (argument mismatch; models.Articulo cannot be converted to com.fasterxml.jackson.databind.JsonNode)
+    method play.mvc.Results.ok(byte[]) is not applicable
+      (argument mismatch; models.Articulo cannot be converted to byte[])
+    method play.mvc.Results.ok(java.io.InputStream) is not applicable
+      (argument mismatch; models.Articulo cannot be converted to java.io.InputStream)
+    method play.mvc.Results.ok(java.io.File) is not applicable
+      (argument mismatch; models.Articulo cannot be converted to java.io.File)
+    method play.mvc.Results.ok(java.nio.file.Path) is not applicable
+      (argument mismatch; models.Articulo cannot be converted to java.nio.file.Path)
+INFO  Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+INFO  time: compiled root in 0.15s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 java source)
+ERROR no suitable method found for ok(boolean)
+    method play.mvc.Results.ok(play.twirl.api.Content) is not applicable
+      (argument mismatch; boolean cannot be converted to play.twirl.api.Content)
+    method play.mvc.Results.ok(java.lang.String) is not applicable
+      (argument mismatch; boolean cannot be converted to java.lang.String)
+    method play.mvc.Results.ok(com.fasterxml.jackson.databind.JsonNode) is not applicable
+      (argument mismatch; boolean cannot be converted to com.fasterxml.jackson.databind.JsonNode)
+    method play.mvc.Results.ok(byte[]) is not applicable
+      (argument mismatch; boolean cannot be converted to byte[])
+    method play.mvc.Results.ok(java.io.InputStream) is not applicable
+      (argument mismatch; boolean cannot be converted to java.io.InputStream)
+    method play.mvc.Results.ok(java.io.File) is not applicable
+      (argument mismatch; boolean cannot be converted to java.io.File)
+    method play.mvc.Results.ok(java.nio.file.Path) is not applicable
+      (argument mismatch; boolean cannot be converted to java.nio.file.Path)
+INFO  Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+INFO  time: compiled root in 0.18s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 java source)
+ERROR no suitable method found for ok(boolean)
+    method play.mvc.Results.ok(play.twirl.api.Content) is not applicable
+      (argument mismatch; boolean cannot be converted to play.twirl.api.Content)
+    method play.mvc.Results.ok(java.lang.String) is not applicable
+      (argument mismatch; boolean cannot be converted to java.lang.String)
+    method play.mvc.Results.ok(com.fasterxml.jackson.databind.JsonNode) is not applicable
+      (argument mismatch; boolean cannot be converted to com.fasterxml.jackson.databind.JsonNode)
+    method play.mvc.Results.ok(byte[]) is not applicable
+      (argument mismatch; boolean cannot be converted to byte[])
+    method play.mvc.Results.ok(java.io.InputStream) is not applicable
+      (argument mismatch; boolean cannot be converted to java.io.InputStream)
+    method play.mvc.Results.ok(java.io.File) is not applicable
+      (argument mismatch; boolean cannot be converted to java.io.File)
+    method play.mvc.Results.ok(java.nio.file.Path) is not applicable
+      (argument mismatch; boolean cannot be converted to java.nio.file.Path)
+INFO  Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+INFO  time: compiled root in 0.3s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 java source)
+ERROR no suitable method found for ok(int,java.lang.String)
+    method play.mvc.Results.ok(play.twirl.api.Content,java.lang.String) is not applicable
+      (argument mismatch; int cannot be converted to play.twirl.api.Content)
+    method play.mvc.Results.ok(java.lang.String,java.lang.String) is not applicable
+      (argument mismatch; int cannot be converted to java.lang.String)
+    method play.mvc.Results.ok(com.fasterxml.jackson.databind.JsonNode,com.fasterxml.jackson.core.JsonEncoding) is not applicable
+      (argument mismatch; int cannot be converted to com.fasterxml.jackson.databind.JsonNode)
+    method play.mvc.Results.ok(java.io.InputStream,long) is not applicable
+      (argument mismatch; int cannot be converted to java.io.InputStream)
+    method play.mvc.Results.ok(java.io.File,play.mvc.FileMimeTypes) is not applicable
+      (argument mismatch; int cannot be converted to java.io.File)
+    method play.mvc.Results.ok(java.io.File,boolean) is not applicable
+      (argument mismatch; int cannot be converted to java.io.File)
+    method play.mvc.Results.ok(java.io.File,java.lang.String) is not applicable
+      (argument mismatch; int cannot be converted to java.io.File)
+    method play.mvc.Results.ok(java.nio.file.Path,play.mvc.FileMimeTypes) is not applicable
+      (argument mismatch; int cannot be converted to java.nio.file.Path)
+    method play.mvc.Results.ok(java.nio.file.Path,boolean) is not applicable
+      (argument mismatch; int cannot be converted to java.nio.file.Path)
+    method play.mvc.Results.ok(java.nio.file.Path,java.lang.String) is not applicable
+      (argument mismatch; int cannot be converted to java.nio.file.Path)
+INFO  Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+INFO  time: compiled root in 0.33s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 java source)
+ERROR no suitable method found for ok(int,java.lang.String)
+    method play.mvc.Results.ok(play.twirl.api.Content,java.lang.String) is not applicable
+      (argument mismatch; int cannot be converted to play.twirl.api.Content)
+    method play.mvc.Results.ok(java.lang.String,java.lang.String) is not applicable
+      (argument mismatch; int cannot be converted to java.lang.String)
+    method play.mvc.Results.ok(com.fasterxml.jackson.databind.JsonNode,com.fasterxml.jackson.core.JsonEncoding) is not applicable
+      (argument mismatch; int cannot be converted to com.fasterxml.jackson.databind.JsonNode)
+    method play.mvc.Results.ok(java.io.InputStream,long) is not applicable
+      (argument mismatch; int cannot be converted to java.io.InputStream)
+    method play.mvc.Results.ok(java.io.File,play.mvc.FileMimeTypes) is not applicable
+      (argument mismatch; int cannot be converted to java.io.File)
+    method play.mvc.Results.ok(java.io.File,boolean) is not applicable
+      (argument mismatch; int cannot be converted to java.io.File)
+    method play.mvc.Results.ok(java.io.File,java.lang.String) is not applicable
+      (argument mismatch; int cannot be converted to java.io.File)
+    method play.mvc.Results.ok(java.nio.file.Path,play.mvc.FileMimeTypes) is not applicable
+      (argument mismatch; int cannot be converted to java.nio.file.Path)
+    method play.mvc.Results.ok(java.nio.file.Path,boolean) is not applicable
+      (argument mismatch; int cannot be converted to java.nio.file.Path)
+    method play.mvc.Results.ok(java.nio.file.Path,java.lang.String) is not applicable
+      (argument mismatch; int cannot be converted to java.nio.file.Path)
+INFO  Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+INFO  time: compiled root in 0.23s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 java source)
+ERROR no suitable method found for ok(int,java.lang.String)
+    method play.mvc.Results.ok(play.twirl.api.Content,java.lang.String) is not applicable
+      (argument mismatch; int cannot be converted to play.twirl.api.Content)
+    method play.mvc.Results.ok(java.lang.String,java.lang.String) is not applicable
+      (argument mismatch; int cannot be converted to java.lang.String)
+    method play.mvc.Results.ok(com.fasterxml.jackson.databind.JsonNode,com.fasterxml.jackson.core.JsonEncoding) is not applicable
+      (argument mismatch; int cannot be converted to com.fasterxml.jackson.databind.JsonNode)
+    method play.mvc.Results.ok(java.io.InputStream,long) is not applicable
+      (argument mismatch; int cannot be converted to java.io.InputStream)
+    method play.mvc.Results.ok(java.io.File,play.mvc.FileMimeTypes) is not applicable
+      (argument mismatch; int cannot be converted to java.io.File)
+    method play.mvc.Results.ok(java.io.File,boolean) is not applicable
+      (argument mismatch; int cannot be converted to java.io.File)
+    method play.mvc.Results.ok(java.io.File,java.lang.String) is not applicable
+      (argument mismatch; int cannot be converted to java.io.File)
+    method play.mvc.Results.ok(java.nio.file.Path,play.mvc.FileMimeTypes) is not applicable
+      (argument mismatch; int cannot be converted to java.nio.file.Path)
+    method play.mvc.Results.ok(java.nio.file.Path,boolean) is not applicable
+      (argument mismatch; int cannot be converted to java.nio.file.Path)
+    method play.mvc.Results.ok(java.nio.file.Path,java.lang.String) is not applicable
+      (argument mismatch; int cannot be converted to java.nio.file.Path)
+INFO  Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+INFO  time: compiled root in 0.23s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 java source)
+ERROR no suitable method found for ok(int,java.lang.String)
+    method play.mvc.Results.ok(play.twirl.api.Content,java.lang.String) is not applicable
+      (argument mismatch; int cannot be converted to play.twirl.api.Content)
+    method play.mvc.Results.ok(java.lang.String,java.lang.String) is not applicable
+      (argument mismatch; int cannot be converted to java.lang.String)
+    method play.mvc.Results.ok(com.fasterxml.jackson.databind.JsonNode,com.fasterxml.jackson.core.JsonEncoding) is not applicable
+      (argument mismatch; int cannot be converted to com.fasterxml.jackson.databind.JsonNode)
+    method play.mvc.Results.ok(java.io.InputStream,long) is not applicable
+      (argument mismatch; int cannot be converted to java.io.InputStream)
+    method play.mvc.Results.ok(java.io.File,play.mvc.FileMimeTypes) is not applicable
+      (argument mismatch; int cannot be converted to java.io.File)
+    method play.mvc.Results.ok(java.io.File,boolean) is not applicable
+      (argument mismatch; int cannot be converted to java.io.File)
+    method play.mvc.Results.ok(java.io.File,java.lang.String) is not applicable
+      (argument mismatch; int cannot be converted to java.io.File)
+    method play.mvc.Results.ok(java.nio.file.Path,play.mvc.FileMimeTypes) is not applicable
+      (argument mismatch; int cannot be converted to java.nio.file.Path)
+    method play.mvc.Results.ok(java.nio.file.Path,boolean) is not applicable
+      (argument mismatch; int cannot be converted to java.nio.file.Path)
+    method play.mvc.Results.ok(java.nio.file.Path,java.lang.String) is not applicable
+      (argument mismatch; int cannot be converted to java.nio.file.Path)
+INFO  Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+INFO  time: compiled root in 0.19s
+ERROR Failed to compile 'root'
+INFO  compiling root (1 java source)
+INFO  time: compiled root in 0.41s
+WARN  no build target: C:\Users\cencarnacion\develop\java\almacen-ivea\project\plugins.sbt
+INFO  skipping build import with status 'Installed'
+INFO  compiling root (1 java source)
+INFO  time: compiled root in 0.24s
+INFO  compiling root (1 java source)
+INFO  time: compiled root in 0.19s
+INFO  compiling root (1 java source)
+INFO  time: compiled root in 0.42s
+INFO  compiling root (1 java source)
+INFO  time: compiled root in 0.24s
+INFO  compiling root (1 java source)
+INFO  time: compiled root in 0.23s
+oct 10, 2019 2:02:37 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMACIÓN: Unsupported notification method: $/setTraceNotification
+oct 10, 2019 2:03:00 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMACIÓN: Unsupported notification method: $/setTraceNotification
