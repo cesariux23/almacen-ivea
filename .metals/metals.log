@@ -1363,3 +1363,18 @@ oct 10, 2019 2:02:37 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notif
 INFORMACIÓN: Unsupported notification method: $/setTraceNotification
 oct 10, 2019 2:03:00 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFORMACIÓN: Unsupported notification method: $/setTraceNotification
+INFO  time: initialize in 0.36s
+INFO  skipping build import with status 'Installed'
+WARN  no build target: C:\Users\cencarnacion\develop\java\almacen-ivea\build.sbt
+WARN  no build target: C:\Users\cencarnacion\develop\java\almacen-ivea\project\plugins.sbt
+INFO  running embedded 'bloop bsp --protocol tcp --host 127.0.0.1 --port 59216'
+The server is listening for incoming connections at tcp://127.0.0.1:59216...
+Accepted incoming BSP client connection at tcp://127.0.0.1:59216
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\cencarnacion\AppData\Local\scalameta\metals\cache\bsp.trace.json
+request received: build/initialize
+INFO  time: connected to build server in 11s
+BSP initialization handshake complete.
+INFO  time: imported build in 1.96s
+INFO  time: indexed workspace in 5.62s
+WARN  no build target: C:\Users\cencarnacion\develop\java\almacen-ivea\project\plugins.sbt
+WARN  no build target: C:\Users\cencarnacion\develop\java\almacen-ivea\project\plugins.sbt

@@ -7,4 +7,4 @@ addSbtPlugin("com.typesafe.play" % "sbt-plugin" % "2.7.3")
 addSbtPlugin("org.foundweekends.giter8" % "sbt-giter8-scaffold" % "0.11.0")
 
 // ORM EBean plugin
-addSbtPlugin("com.typesafe.sbt" % "sbt-play-ebean" % "5.0.2")
+addSbtPlugin("com.payintech" % "sbt-play-ebean" % "19.10u1")

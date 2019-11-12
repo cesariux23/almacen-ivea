@@ -5,4 +5,7 @@ target
 /.classpath
 /.project
 /.settings
+/.bloop
+/.g8
+/.metals
 /RUNNING_PID
